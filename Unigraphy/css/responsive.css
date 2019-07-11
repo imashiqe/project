@@ -1,0 +1,1799 @@
+
+.contact-over{
+    overflow-x: hidden;
+}
+/*extra small*/
+@media (max-width:575px){
+    .header-top-left{
+        display: none;
+    }
+    .header-top-right{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    /* =======================
+         Menu Section Start
+    =========================== */
+    .nav-btn{
+        background: #EE770C;
+        margin-right: 20px;
+        color: #fff;
+        padding: 10px;
+    }
+    .header-top-menu{
+        margin: 0px;
+        text-align: center;
+    }
+    .header-top-menu:before{
+        display: none;
+    }
+   .header-top-menu li a:hover::before{
+       display: none;
+   }
+   .navbar-collapse{
+       padding-bottom: 15px;
+   }
+   .header-search-box{
+    width: 299px;
+    margin: 0 auto;
+   }
+   .header-search-box input{
+    width: 255px;
+}
+      /* =======================
+         Menu Section End
+    =========================== */
+    /* ==========================
+          Bannar Section Start 
+    ============================*/
+    .header-bannar-section{
+        background: linear-gradient(to bottom,rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../images/bannar-bg.jpg) no-repeat center;
+        padding: 50px 0px;
+        background-size: cover;
+    }
+    .bannar-container{
+        text-align: center;
+    }
+    .bannar-container h2{
+        font-size: 40px;
+        color: #fff;
+    }
+    .bannar-box ul{
+        margin-top: 10px;
+    }
+    .uni-text{
+        font-size: 70px;
+    }
+    .bannar-container h4{
+        letter-spacing: 3px;
+        font-size: 16px;
+        margin-top: -10px;
+        color: #fff;
+    }
+    .bannar-container p{
+        font-size: 14px;
+        color: #e5e5e5;
+        line-height: 23px;
+        width: 100%;
+        padding-top: 7px;
+        hyphens: auto;
+    }
+    .dwn-btn{
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .bannar-container a{
+        margin-top: 28px;
+    }
+    .play-btn{
+        margin-left: 10px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+    .services-section{
+        padding: 34px 0px 38px 0px;
+        background-size: cover;
+    }
+    .bannar-box ul li i{
+        font-size: 30px;
+    }
+    .bannar-box ul li h3{
+        font-size: 20px;
+    }
+    .help-btn{
+        padding: 10px 20px;
+        font-size: 16px;
+        box-shadow: 0px 1px 17px rgba(0,0,0,.2);
+        margin-top: 15px;
+    }
+
+    .top-btn {
+        visibility: hidden;
+
+    }
+  /* ============================= 
+           Bannar Section End
+    ================================*/
+    /* ========================
+         about section Start
+    =========================== */
+ 
+    .section-title h2{
+        font-size: 22px;
+    }
+    .section-title p{
+        padding: 10px;
+        margin-top: 0px;
+        hyphens: auto;
+        font-size: 14px;
+    }
+    .about-col{
+        padding: 0;
+        margin: 0;
+ }
+ .company-photo{
+     margin: 10px 0px;
+     width: 100%;
+     height: 100%;
+ }
+ .about-right p{
+     text-align: left;
+ }
+ .about-right{
+     margin-top: 23px;
+ }
+
+ .about-btns{
+     justify-content: center;
+     margin-bottom: 30px;
+ }
+ .about-btns a{
+     padding: 10px 20px !important;
+     font-size: 14px;
+ }
+ .about-right-box li i{
+    color: #F47821;
+    font-size: 34px;
+    margin-right: 25px;
+    padding-top: 5px;
+ }
+
+     /* ========================
+         about section End
+    =========================== */ 
+
+    dl, ol, ul{
+        margin-bottom: 0px;
+    }
+
+     /* ========================
+         Service Section Start
+    =========================== */ 
+    .service-section{
+        background: #F5F7FC;
+    }
+    .servicer-slider-section{
+        margin-top: 11px;
+    }
+    .slide-box{
+        background: #ffff;
+    }
+    .service-slider-btn-left{
+        top: 70%;
+        opacity: .5;
+        transform: translate(0, 50%);
+        margin-left: 10px;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .service-slider-btn-right{
+        top: 70%;
+        opacity: .5;
+        transform: translate(0, 50%);
+        margin-right: 10px;
+        background: transparent;
+        box-shadow: none;
+    }
+
+     /* ========================
+         Service Section End
+    =========================== */ 
+     /* ========================
+         Design Section Start
+    =========================== */
+    .mixitup-menu button{
+        width: 45%;
+    }
+    
+    .design-part-bg{
+        margin-top: -38px;
+    }
+    .container-design{
+        margin-top: 11px;
+    }
+    .design-box{
+        width: 100%;
+    }
+       .design-p{
+           margin: 0px;
+           padding: 0px;
+       }
+       .design-box-photo img{
+           width: 100%;
+       }
+       .design-btn a{
+           padding: 10px 20px;
+           font-size: 14px;
+       }
+     /* ========================
+         Design Section End
+    =========================== */
+     /* ========================
+         Pricing Section Start
+    =========================== */
+    .pricing-section{
+        padding: 35px 0px;
+    }
+    .section-title-pricing h2{
+        font-size: 22px;
+    }
+    .section-title-pricing p{
+        font-size: 14px;
+        padding: 0px;
+        font-weight: 400;
+        font-family: 'Open Sans',sans-serif;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .pricing-side{
+        box-shadow: none;
+    }
+    .basic-packege ul li a{
+        margin-bottom: 20px;
+    }
+    .font-side-container img{
+        position: absolute;
+        left: 50%;
+        top: 44px;
+        opacity: .5;
+        width: 163px;
+        transform: translateX(-50%);
+    }
+
+
+     /* ========================
+         Pricing Section End
+    =========================== */
+
+
+    /* ========================
+        team section Start     
+    =========================== */
+    .team-container{
+        padding: 17px 0px 0px 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .section-title-team h2{
+        font-size: 22px;
+    }
+    .section-title-team p{
+        padding: 10px;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+
+    }
+
+    .member-element{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .member-element img{
+        width: 100%;
+    }
+    .member-element:hover .member-overlay a{
+        top: 40%;
+    }
+    .member-element:hover .member-overlay{
+        height: 100%;
+    }
+    .team-social{
+        text-align: center;
+    }
+
+
+
+
+    
+    /* ========================
+        team section End     
+    =========================== */
+
+    /* ========================
+        Download Section Start     
+    =========================== */
+    .download-section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .download h2{
+        margin-top: 0px;
+        font-size: 25px;
+        text-align: left;
+    }
+    .download p{
+        margin-top: 9px;
+        font-size: 14px;
+    }
+    .phone-pic{
+        display: none;
+    }
+    .download ul li a{
+        padding: 6px 14px;
+        font-size: 14px;
+    }
+
+    /* ========================
+        Download Section End 
+    =========================== */
+
+     /* ========================
+        Client Section Start
+    =========================== */
+    .client-section{
+        margin: 0px 0px !important;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .client-box{
+        border: 1px solid #ddd;
+        box-shadow: none;
+        border-radius: 0px;
+        width: 105%;
+    }
+    .client-box:hover{
+        box-shadow: none !important;
+    }
+    .counter-bg{
+        padding: 40px 0px;
+    }
+    .counter-text{
+        margin-top: -40px;
+        padding: 19px 5px 8px 5px;
+    }
+    .counter-box p{
+        margin-bottom: 40px;
+    }
+    .counter-text p{
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .counter-box h2{
+        font-size: 51px;
+    }
+
+    
+     /* ========================
+        Client Section End
+    =========================== */
+   /* ========================
+        Blog Section Start
+    =========================== */
+    .blog-section{
+        padding: 29px 0px 1px 0px;
+    }
+    .blog-title{
+        margin-top: 6px !important;
+    }
+    .blog-content-top{
+        margin-top: 32px;
+    }
+    .blog-content-top::before{
+        background: transparent;
+        box-shadow: none;
+        display: none;
+        height: 115%;
+    }
+    .blog-text{
+        padding: 0px;
+    }
+    .blog-img img{
+        box-shadow: none;
+        width: 100%;
+    }
+    .blog-text a{
+        display: inline-block;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+    .blog-text ul li{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .blog-text p{
+        font-size: 14px;
+    }
+    .blog-content-bottom{
+        display: none;
+    }
+    .more-btn{
+        margin-top: 23px;
+        text-align: center;
+        margin-bottom: 46px;
+    }
+    .more-btn a{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    
+      /* ========================
+          Blog Section End
+    =========================== */
+     /* ========================
+          Contact and Footer Start
+    =========================== */
+    .contact-form-part{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .message-input{
+        height: 60px;
+        border-bottom: 1px solid #999;
+        line-height: 60px;
+    }
+    .message-input-box{
+        min-height: 59px;
+        padding-top: 10px;
+        border-bottom: 1px solid #999;
+        max-width: 95%;
+        margin-left: 14px;
+        font-size: 16px;
+        margin-right: 14px;
+    }
+    .send-btn button{
+        margin-top: 0px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .footer-section{
+        padding-top: 35px;
+    }
+    .footer-left p{
+        padding-right: 10px;
+        hyphens: auto;
+    }
+    .footer-middle{
+        padding-left: 17px;
+    }
+    .footer-middle ul{
+        margin-left: 10px;
+    }
+    .footer-right{
+        margin-top: 11px;
+        padding: 16px;
+        text-align: center;
+    }
+    .footer-right h2{
+        letter-spacing: 0px;
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    .footer-right ul li form input{
+        width: 187px;
+        vertical-align: middle;
+    }
+    .footer-right ul li form button{
+        padding: 11px 7px;
+        vertical-align: middle;
+        margin-top: 0px;
+    }
+    .footer-right ul li p{
+        margin-top: 7px;
+        hyphens: auto;
+        display: none;
+    }
+    .footer-follow-links h2{
+        margin-top: 13px;
+    }
+    .footer-copyright{
+        margin-top: 12px;
+        line-height: 28px;
+        text-align: center;
+        padding: 13px 3px;
+    }
+    .footer-copyright ul{
+        padding-top: 5px;
+    }
+    .contact-detail-element ul li p{
+        width: 300px;
+    }
+
+    /* ========================
+          Contact and Footer End
+    =========================== */
+}
+
+
+@media (min-width:576px) and (max-width:767px){
+    .mixitup-menu button {
+        margin: 11px 11px;
+        width: 167px;
+    }
+    .header-top-left{
+        display: none;
+    }
+    .header-top-right{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    /* =======================
+         Menu Section Start
+    =========================== */
+    .header-search-box button{
+        margin-left: 13px;
+    }
+    .nav-btn{
+        background: #EE770C;
+        margin-right: 20px;
+        color: #fff;
+        padding: 10px;
+    }
+    .header-top-menu{
+        margin: 0px;
+        text-align: center;
+    }
+    .header-top-menu:before{
+        display: none;
+    }
+   .header-top-menu li a:hover::before{
+       display: none;
+   }
+   .navbar-collapse{
+       padding-bottom: 15px;
+   }
+   .header-search-box{
+    width: 299px;
+    margin: 0 auto;
+   }
+   .header-search-box input{
+    width: 255px;
+}
+      /* =======================
+         Menu Section End
+    =========================== */
+    /* ==========================
+          Bannar Section Start 
+    ============================*/
+    .top-btn{
+        visibility: visible;
+    }
+    .header-bannar-section{
+        background: linear-gradient(to bottom,rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../images/bannar-bg.jpg) no-repeat center;
+        padding: 50px 0px;
+        background-size: cover;
+    }
+    .bannar-container{
+        text-align: center;
+    }
+    .bannar-container h2{
+        font-size: 55px;
+        color: #fff;
+    }
+    .bannar-box ul{
+        margin-top: 20px;
+    }
+    .uni-text{
+        font-size: 70px;
+    }
+    .bannar-container h4{
+        letter-spacing: 3px;
+        font-size: 21px;
+        margin-top: 3px;
+        color: #fff;
+    }
+    .bannar-container p{
+        font-size: 14px;
+        color: #e5e5e5;
+        line-height: 23px;
+        width: 100%;
+        padding-top: 7px;
+        hyphens: auto;
+    }
+    .dwn-btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .bannar-container a{
+        margin-top: 28px;
+    }
+    .play-btn{
+        margin-left: 27px;
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+    .services-section{
+        padding: 34px 0px 38px 0px;
+        background-size: cover;
+    }
+    .bannar-box ul li i{
+        font-size: 40px;
+    }
+    .bannar-box ul li h3{
+        font-size: 22px;
+    }
+    .help-btn{
+        padding: 10px 20px;
+        font-size: 16px;
+        box-shadow: 0px 1px 17px rgba(0,0,0,.2);
+        margin-top: 15px;
+    }
+  /* ============================= 
+           Bannar Section End
+    ================================*/
+    /* ========================
+         about section Start
+    =========================== */
+    .section-title h2{
+        font-size: 22px;
+    }
+    .section-title p{
+        padding: 10px;
+        margin-top: 0px;
+        hyphens: auto;
+        font-size: 14px;
+    }
+    .about-col{
+        padding: 0;
+        margin: 0;
+ }
+ .company-photo{
+        margin: 10px 10px;
+        width: 250px;
+        height: 100%;
+ }
+ .about-right p{
+     text-align: left;
+ }
+ .about-right{
+     margin-top: 23px;
+ }
+
+ .about-btns{
+     justify-content: center;
+     margin-bottom: 30px;
+ }
+ .about-btns a{
+     padding: 10px 20px !important;
+     font-size: 14px;
+ }
+ .about-right-box li i{
+    color: #F47821;
+    font-size: 34px;
+    margin-right: 25px;
+    padding-top: 5px;
+ }
+
+     /* ========================
+         about section End
+    =========================== */ 
+
+    dl, ol, ul{
+        margin-bottom: 0px;
+    }
+
+     /* ========================
+         Service Section Start
+    =========================== */ 
+    .service-section{
+        background: #fff;
+        padding:30px 0px 40px 0px;
+    }
+    .servicer-slider-section{
+        margin-top: 11px;
+    }
+    .slide-box{
+        background: #ffff;
+    }
+    .service-slider-btn-left{
+        top: 78%;
+        opacity: .5;
+        transform: translate(0, 50%);
+        margin-left: 10px;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .service-slider-btn-right{
+        top: 78%;
+        opacity: .5;
+        transform: translate(0, 50%);
+        margin-right: 10px;
+        background: transparent;
+        box-shadow: none;
+    }
+
+     /* ========================
+         Service Section End
+    =========================== */ 
+     /* ========================
+         Design Section Start
+    =========================== */
+    .mixitup-menu button {
+        margin: 6px 2px;
+        width: 118px;
+    }
+    .design-part-bg{
+        margin-top: -38px;
+    }
+    .container-design{
+        margin-top: 11px;
+    }
+    .design-box{
+        width: 260px;
+        margin-right: 5px;
+        margin-left: 5px;
+        float: left;
+    }
+    .design-box-photo img{
+        width: 100%;
+        height: 100%;
+    }
+       .design-p{
+           margin: 0px;
+           padding: 0px;
+       }
+       .design-box-photo img{
+           width: 100%;
+       }
+       .design-btn a{
+           padding: 10px 20px;
+           font-size: 20px;
+       }
+     /* ========================
+         Design Section End
+    =========================== */
+     /* ========================
+         Pricing Section Start
+    =========================== */
+    .pricing-section{
+        padding: 35px 0px;
+    }
+    .section-title-pricing h2{
+        font-size: 22px;
+    }
+    .section-title-pricing p{
+        font-size: 14px;
+        padding: 0px;
+        font-weight: 400;
+        font-family: 'Open Sans',sans-serif;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .pricing-side{
+        box-shadow: none;
+    }
+    .basic-packege ul li a{
+        margin-bottom: 20px;
+    }
+    .font-side-container img{
+        position: absolute;
+        left: 50%;
+        top: 44px;
+        opacity: .5;
+        width: 163px;
+        transform: translateX(-50%);
+    }
+
+
+     /* ========================
+         Pricing Section End
+    =========================== */
+
+
+    /* ========================
+        team section Start     
+    =========================== */
+    .team-container{
+        padding: 17px 0px 0px 0px;
+    }
+    .section-title-team h2{
+        font-size: 22px;
+    }
+    .section-title-team p{
+        padding: 10px;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+
+    }
+
+    .member-element{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .member-element img{
+        width: 100%;
+    }
+    .member-element:hover .member-overlay a{
+        top: 40%;
+    }
+    .member-element:hover .member-overlay{
+        height: 100%;
+    }
+    .team-social{
+        text-align: center;
+    }
+
+    .marg{
+        margin-bottom: 18px;
+    }
+
+
+    
+    /* ========================
+        team section End     
+    =========================== */
+
+    /* ========================
+        Download Section Start     
+    =========================== */
+    .download-section{
+        padding-top: 30px;
+    }
+    .download h2{
+        margin-top: 18px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .download p{
+        margin-top: 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .phone-pic{
+        display: block;
+        width: 100%;
+    }
+    .download ul li a{
+        padding: 14px 21px;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 40px;
+    }
+    .download ul{
+        justify-content: center;
+    }
+
+    /* ========================
+        Download Section End 
+    =========================== */
+
+     /* ========================
+        Client Section Start
+    =========================== */
+    .client-section{
+        padding: 0px 0px 45px 0px;
+        margin: 0px 0px !important;
+    }
+    .client-box{
+        border: 1px solid #ddd;
+        box-shadow: none;
+        padding: 8px 16px;
+        border-radius: 0px;
+    }
+    .client-box:hover{
+        box-shadow: none !important;
+    }
+    .counter-bg{
+        padding: 40px 0px;
+    }
+    .counter-text{
+        margin-top: -40px;
+        padding: 19px 5px 8px 5px;
+    }
+    .counter-box p{
+        margin-bottom: 40px;
+    }
+    .counter-text p{
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: left;
+        padding: 0px 10px;
+    }
+    .client-box ul::before{
+        width: 106%;
+        left: -16px;
+    }
+    .client-box p{
+        font-size: 15px;
+    }
+    .client-detail{
+        margin-top: 7px;
+    }
+
+    
+     /* ========================
+        Client Section End
+    =========================== */
+   /* ========================
+        Blog Section Start
+    =========================== */
+    .blog-section{
+        padding: 29px 0px 1px 0px;
+    }
+    .blog-title{
+        margin-top: 6px !important;
+    }
+    .blog-content-top{
+        margin-top: 32px;
+    }
+    .blog-content-top::before{
+        background: transparent;
+        box-shadow: none;
+        display: none;
+    }
+    .blog-text{
+        padding: 0px;
+    }
+    .blog-img img{
+        box-shadow: none;
+        width: 100%;
+    }
+    .blog-text a{
+        display: inline-block;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+    .blog-text ul li{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .blog-text p{
+        font-size: 14px;
+    }
+    .blog-content-bottom{
+        display: none;
+    }
+    .more-btn{
+        margin-top: 23px;
+        text-align: center;
+        margin-bottom: 46px;
+    }
+    .more-btn a{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    
+      /* ========================
+          Blog Section End
+    =========================== */
+     /* ========================
+          Contact and Footer Start
+    =========================== */
+    .contact-form-part{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .message-input{
+        height: 65px;
+        border-bottom: 1px solid #999;
+        line-height: 65px;
+    }
+    .message-input-box{
+        min-height: 59px;
+        padding-top: 10px;
+        border-bottom: 1px solid #999;
+        max-width: 95%;
+        margin-left: 14px;
+        font-size: 16px;
+        margin-right: 14px;
+    }
+    .send-btn button{
+        margin-top: 0px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .footer-section{
+        padding-top: 35px;
+    }
+    .footer-left p{
+        padding-right: 10px;
+        hyphens: auto;
+    }
+    .footer-middle{
+        padding-left: 17px;
+    }
+    .footer-middle ul{
+        margin-left: 10px;
+    }
+    .footer-right{
+        margin-top: 11px;
+        padding: 16px;
+        text-align: center;
+    }
+    .footer-right h2{
+        letter-spacing: 0px;
+        font-size: 40px;
+    }
+    .footer-right ul li form input{
+        width: 255px;
+        vertical-align: middle;
+    }
+    .footer-right ul li form button {
+        padding: 11px 10px;
+        vertical-align: middle;
+        margin-top: 0px;
+    }
+    .footer-right ul li p{
+        margin-top: 7px;
+        hyphens: auto;
+    }
+    .footer-follow-links h2{
+        margin-top: 13px;
+    }
+    .footer-copyright{
+        margin-top: 12px;
+        line-height: 28px;
+        text-align: center;
+        padding: 13px 3px;
+    }
+    .footer-copyright ul{
+        padding-top: 5px;
+    }
+    .contact-detail-element ul li p{
+        width: 300px;
+    }
+
+    /* ========================
+          Contact and Footer End
+    =========================== */
+}
+
+
+
+/*medium (col-md)*/
+
+@media (min-width:768px) and (max-width:991px){
+    .header-top-right{
+        display: none;
+    }
+      /* =======================
+         Menu Section Start
+    =========================== */
+    .header-search-box button{
+        margin-left: 13px;
+    }
+    .nav-btn{
+        background: #EE770C;
+        margin-right: 20px;
+        color: #fff;
+        padding: 10px;
+    }
+    .header-top-menu{
+        margin: 0px;
+        text-align: center;
+    }
+    .header-top-menu:before{
+        display: none;
+    }
+   .header-top-menu li a:hover::before{
+       display: none;
+   }
+   .navbar-collapse{
+       padding-bottom: 15px;
+   }
+   .header-search-box{
+    width: 299px;
+    margin: 0 auto;
+   }
+   .header-search-box input{
+    width: 255px;
+}
+      /* =======================
+         Menu Section End
+    =========================== */
+    /* ==========================
+          Bannar Section Start 
+    ============================*/
+    .top-btn{
+        visibility: visible;
+    }
+    .header-bannar-section{
+        background: linear-gradient(to bottom,rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../images/bannar-bg.jpg) no-repeat center;
+        padding: 80px 0px;
+        background-size: cover;
+    }
+    .bannar-container{
+        text-align: center;
+    }
+    .bannar-container h2{
+        font-size: 55px;
+        color: #fff;
+    }
+    .bannar-box ul{
+        margin-top: 20px;
+    }
+    .uni-text{
+        font-size: 70px;
+    }
+    .bannar-container h4{
+        letter-spacing: 3px;
+        font-size: 21px;
+        margin-top: 3px;
+        color: #fff;
+    }
+    .bannar-container p{
+        font-size: 14px;
+        color: #e5e5e5;
+        line-height: 23px;
+        width: 100%;
+        padding-top: 7px;
+        hyphens: auto;
+    }
+    .dwn-btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .bannar-container a{
+        margin-top: 28px;
+    }
+    .play-btn{
+        margin-left: 27px;
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+    .services-section{
+        padding: 30px 0px 23px 0px;
+        background-size: cover;
+    }
+    .bannar-box ul li i{
+        font-size: 40px;
+    }
+    .bannar-box ul li h3{
+        font-size: 22px;
+    }
+    .help-btn{
+        padding: 10px 20px;
+        font-size: 16px;
+        box-shadow: 0px 1px 17px rgba(0,0,0,.2);
+        margin-top: 15px;
+    }
+  /* ============================= 
+           Bannar Section End
+    ================================*/
+    /* ========================
+         about section Start
+    =========================== */
+
+    .about-name{
+        margin-top: 25px;
+        margin-bottom: -7px;
+    }
+    .section-title h2{
+        font-size: 22px;
+    }
+    .section-title p{
+        padding: 10px;
+        margin-top: 0px;
+        hyphens: auto;
+        font-size: 14px;
+    }
+    .about-col{
+        padding: 0;
+        margin: 0;
+ }
+ .company-photo{
+        margin: 10px 10px;
+        width: 47%;
+        height: 100%;
+ }
+ .about-right p{
+     text-align: left;
+ }
+ .about-right{
+     margin-top: 23px;
+ }
+
+ .about-btns{
+     justify-content: center;
+     margin-bottom: 30px;
+ }
+ .about-btns a{
+     padding: 10px 20px !important;
+     font-size: 16px;
+ }
+ .about-right-box li i{
+    color: #F47821;
+    font-size: 34px;
+    margin-right: 25px;
+    padding-top: 5px;
+ }
+ .about-right-box li h4{
+     font-size: 22px;
+ }
+
+ .service-section{
+     padding: 23px 0px 60px 0px;
+ }
+     /* ========================
+         about section End
+    =========================== */ 
+    /* ========================
+         Design Section Start
+    =========================== */
+    .design-part-bg{
+        margin-top: 20px;
+    }
+    .container-design{
+        margin-top: 11px;
+    }
+    .design-box{
+        width: 48%;
+        float: left;
+    }
+    .design-box-photo img{
+        width: 100%;
+        height: 100%;
+    }
+       .design-p{
+           margin: 0px;
+           padding: 0px;
+       }
+       .design-box-photo img{
+           width: 100%;
+       }
+       .design-btn a{
+           padding: 10px 20px;
+           font-size: 20px;
+       }
+       .design-box-photo{
+           height: 100%;
+       }
+       .design-part-bg{
+           padding: 50px 0px;
+       }
+     /* ========================
+         Design Section End
+    =========================== */
+    /* ========================
+         Pricing Section Start
+    =========================== */
+    .pricing-section{
+        padding: 35px 0px;
+    }
+    .section-title-pricing h2{
+        font-size: 22px;
+    }
+    .section-title-pricing p{
+        font-size: 14px;
+        padding: 0px;
+        font-weight: 400;
+        font-family: 'Open Sans',sans-serif;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .pricing-side{
+        box-shadow: none;
+    }
+    .basic-packege ul li a{
+        margin-bottom: 20px;
+    }
+    .font-side-container img{
+        position: absolute;
+        left: 50%;
+        top: 32px;
+        opacity: .5;
+        width: 125px;
+        transform: translateX(-50%);
+    }
+    .font-side-container h2{
+        margin-top: 188px;
+        font-size: 15px;
+    }
+    .font-side-container p{
+        font-size: 14px;
+    }
+    .font-side-container ul{
+        margin-top: 23px;
+    }
+    .font-side-container ul li{
+        font-size: 14px;
+    }
+    .basic-packege h1{
+        font-size: 40px;
+    }
+    .basic-packege h2{
+        margin-top: -8px;
+        font-size: 24px;
+    }
+    .basic-packege ul{
+        margin-top: 30px;
+    }
+    .basic-packege ul li{
+        font-size: 14px;
+        line-height: 42px;
+    }
+    .basic-packege ul li a{
+        font-size: 16px;
+        padding: 0px 40px;
+    }
+    .pricing-card-container{
+        height: 485px;
+    }
+    .pricing-card{
+        height: 490px;
+    }
+
+
+     /* ========================
+         Pricing Section End
+    =========================== */
+    /* ========================
+        team section Start     
+    =========================== */
+    .team-container{
+        padding: 17px 0px 0px 0px;
+    }
+    .section-title-team h2{
+        font-size: 22px;
+        margin-top: 27px;
+    }
+    .section-title-team p{
+        padding: 10px;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+
+    }
+
+    .member-element{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .member-element img{
+        width: 100%;
+    }
+    .member-element:hover .member-overlay a{
+        top: 40%;
+    }
+    .member-element:hover .member-overlay{
+        height: 100%;
+    }
+    .team-social{
+        text-align: center;
+    }
+
+    .marg{
+        margin-bottom: 18px;
+    }
+
+
+    
+    /* ========================
+        team section End     
+    =========================== */
+    /* ========================
+        Download Section Start     
+    =========================== */
+    .download-section{
+        padding-top: 30px;
+    }
+    .download h2{
+        margin-top: 18px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .download p{
+        margin-top: 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .phone-pic{
+        display: block;
+        width: 100%;
+    }
+    .download ul li a{
+        padding: 14px 21px;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 40px;
+    }
+    .download ul{
+        justify-content: center;
+    }
+
+    /* ========================
+        Download Section End 
+    =========================== */
+
+     /* ========================
+        Client Section Start
+    =========================== */
+    .client-section{
+        padding: 0px 0px 45px 0px;
+        margin: 0px 0px !important;
+    }
+    .client-box{
+        /* border: 1px solid #ddd; */
+        /* box-shadow: none; */
+        padding: 8px 16px;
+        border-radius: 0px;
+    }
+    .client-box:hover{
+        /* box-shadow: none !important; */
+    }
+    .counter-bg{
+        padding: 40px 0px;
+    }
+    .counter-text{
+        margin-top: -40px;
+        padding: 19px 5px 8px 5px;
+    }
+    .counter-box p{
+        margin-bottom: 40px;
+    }
+    .counter-text p{
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        text-align: center;
+        padding: 13px 10px;
+    }
+    .client-box ul::before{
+        width: 111%;
+        left: -16px;
+    }
+    .client-box p{
+        font-size: 15px;
+    }
+    .client-detail{
+        margin-top: 7px;
+    }
+
+    
+     /* ========================
+        Client Section End
+    =========================== */
+   /* ========================
+        Blog Section Start
+    =========================== */
+    .blog-section{
+        padding: 29px 0px 1px 0px;
+    }
+    .blog-title{
+        margin-top: 6px !important;
+    }
+    .blog-content-top{
+        margin-top: 32px;
+    }
+    .blog-content-top::before{
+        background: transparent;
+        box-shadow: none;
+        display: none;
+    }
+    .blog-text{
+        padding: 0px;
+    }
+    .blog-img img{
+        box-shadow: none;
+        width: 100%;
+    }
+    .blog-text a{
+        display: inline-block;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+    .blog-text ul li{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .blog-text p{
+        font-size: 14px;
+    }
+    .blog-content-bottom{
+        display: none;
+    }
+    .more-btn{
+        margin-top: 23px;
+        text-align: center;
+        margin-bottom: 46px;
+    }
+    .more-btn a{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    
+      /* ========================
+          Blog Section End
+    =========================== */
+     /* ========================
+          Contact and Footer Start
+    =========================== */
+    .contact-form-part{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .message-input{
+        height: 65px;
+        border-bottom: 1px solid #999;
+        line-height: 65px;
+    }
+    .message-input-box{
+        min-height: 59px;
+        padding-top: 10px;
+        border-bottom: 1px solid #999;
+        max-width: 95%;
+        margin-left: 14px;
+        font-size: 16px;
+        margin-right: 14px;
+    }
+    .send-btn button{
+        margin-top: 0px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .footer-section{
+        padding-top: 35px;
+    }
+    .footer-left p{
+        padding-right: 10px;
+        hyphens:none;
+    }
+    .footer-middle{
+        padding-left: 17px;
+    }
+    .footer-middle ul{
+        margin-left: 10px;
+    }
+    .footer-right{
+        margin-top: 11px;
+        padding: 16px;
+        text-align: center;
+    }
+    .footer-right h2{
+        letter-spacing: 0px;
+        font-size: 40px;
+    }
+    .footer-right ul li form input{
+        width: 255px;
+        vertical-align: middle;
+    }
+    .footer-right ul li form button {
+        padding: 11px 10px;
+        vertical-align: middle;
+        margin-top: 1px;
+    }
+    .footer-right ul li p{
+        margin-top: 7px;
+        hyphens: auto;
+    }
+    .footer-follow-links h2{
+        margin-top: 13px;
+    }
+    .footer-copyright{
+        margin-top: 12px;
+        line-height: 28px;
+        text-align: center;
+        padding: 13px 3px;
+    }
+    .footer-copyright ul{
+        padding-top: 5px;
+    }
+    .contact-detail-element ul li p{
+        width: 300px;
+    }
+    .msg-info{
+        display: block;
+    }
+    .send-btn button{
+        margin-top: 16px;
+    }
+    .font-side-container{
+        height: 485px;
+    }
+
+    /* ========================
+          Contact and Footer End
+    =========================== */
+}
+
+/*large (col-lg)*/
+
+@media (min-width:992px) and (max-width:1199px){
+    .footer-left p{
+        padding-right: 10px;
+    }
+    .footer-right ul li p{
+        padding-right: 12px;
+    }
+    .header-top-menu{
+        margin-right: 33px;
+    }
+    .header-bannar-section{
+        padding: 94px 0px;
+    }
+    .bannar-container p{
+        width: 530px;
+    }
+    .bannar-box ul li i{
+        font-size: 40px;
+    }
+
+    .bannar-box ul li h3{
+        font-size: 20px;
+    }
+    .company-photo{
+        width: 45%;
+        height: 100%;
+    }
+    .company-photo:hover .company-overlay p{
+        bottom: 23%;
+    }
+    .about-right-box li h4{
+        font-size: 19px;
+    }
+    .blog-content-top::before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 90%;
+        height: 122%;
+        background: #fff;
+        right: 0;
+        top: -28px;
+        box-shadow: 7px 10px 43px #e7e7e7;
+        z-index: -10;
+    }
+    .blog-content-bottom::before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 90%;
+        height: 122%;
+        background: #fff;
+        left: 0;
+        top: -28px;
+        box-shadow: 7px 10px 43px #e7e7e7;
+        z-index: -10;
+    }
+    .about-right-box-section{
+        margin-top: 38px;
+    }
+    .about-btns {
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .section-title p{
+        padding: 0px 100px;
+    }
+    .service-section{
+        padding: 70px 0px 33px 0px;
+    }
+    .service-slider-btn-left{
+        transform: translate(-30%, -50%);
+    }
+    .service-slider-btn-right{
+        transform: translate(30%, -50%);
+    }
+    .design-none{
+        display: none;
+    }
+    .design-box-photo{
+        height: 295px;
+    }
+    .design-box-photo img{
+        height: 100%;
+    }
+    .member-element{
+        width: 220px;
+        min-height: 308px;
+    }
+    .member-element img {
+        width: 222px;
+        padding-left: 32px;
+    }
+    .member-detail {
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        bottom: -67px;
+        height: 94px;
+        clip-path: polygon(0 19%,100% 0, 100% 100%,0 100%);
+        z-index: 13;
+    }
+    .member-detail h3{
+        margin-top: 28px;
+    }
+    .team-social{
+        padding-left: 9px;
+    }
+    .download-section{
+        padding-top: 50px;
+    }
+    .client-box ul::before{
+        width: 115%;
+    }
+    .counter-text {
+        background: #fff;
+        padding: 50px 80px 49px 80px;
+        box-shadow: 0px 5px 15px rgba(0, 0,0,.1);
+        border-radius: 5px;
+        margin-top: -101px;
+    }
+
+    .blog-text {
+        padding: 43px 20px 10px 176px;
+    }
+    .blog-img-bottom img {
+        margin-left: -57px;
+    }
+
+    .footer-middle ul li a{
+        line-height: 26px;
+    }
+    .section-title-pricing p {
+        padding: 0px 155px 24px 154px;
+    }
+    .pricing-section {
+        background: #F7F5F7;
+        padding: 59px 0px;
+    }
+    .section-title-team p {
+        padding: 10px 169px;
+    }
+
+    .testimonial-title {
+        margin-bottom: -38px;
+    }
+    .footer-middle {
+        margin-top: 18px;
+        padding-left: 61px;
+    }
+    .footer-other-link {
+        display: none !important;
+    }
+    .footer-right ul li form input {
+        width: 197px;
+        vertical-align: middle;
+        margin-top: -4px;
+    }
+    .footer-follow-links h2{
+        margin-top: 21px;
+    }
+    .footer-section{
+        padding-top: 50px;
+    }
+    .service-section .slick-dots li button{
+        display: none;
+    }
+    .counter-client .slick-dots li button{
+        display: none;
+    }
+    .counter-client-logo {
+        margin-top: 47px;
+    }
+    .counter-section {
+        padding: 0px 0px 9px 0px;
+    }
+    .basic-packege ul li a{
+        padding: 0px 50px;
+    }
+
+    /* responsive End of 920px to 1199px */
+}

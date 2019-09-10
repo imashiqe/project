@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan&display=swap');
+/* font-family: 'Baloo Bhaijaan', cursive; */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+p{
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+body{
+    background: #23cd74;
+    z-index: -3;
+    position: relative;
+}
+
+button:hover{
+    outline: 0;
+}
+
+.header{
+    margin-top: 100px;
+    background: #fff;
+    padding: 60px 50px 100px 50px;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.title p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.title h1{
+    font-family: 'Baloo Bhaijaan',cursive;
+    font-size: 40px;
+}
+
+.option_list{
+    text-align: center;
+    padding-top: 40px;
+    position: absolute;
+    bottom: -47px;
+    left: 0;
+    width: 100%;
+}
+
+.option_list a{
+    display: inline-block;
+    border: 3px solid #fff;
+    padding: 15px 0;
+    width: 135px;
+    margin: 0 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    z-index: 10;
+    transition: all linear .3s;
+}
+
+.option_list a:hover{
+    border: 3px solid #1ce37b;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.option_list a img{
+    width: 30px;
+}
+
+.option_list a span{
+    display: block;
+    padding-top: 10px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #444;
+
+}
+
+.option_list a:hover span{
+    color: #1ce37b;
+}
+
+.footer_part{
+    background: #1ce37b;
+    padding: 60px 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.1);
+    margin-bottom: 100px;
+}
+
+.sponsor{
+    padding-top: 35px;
+    color:#444;
+    padding-bottom: 16px;
+}
+
+.sponsor p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+}
+
+.sponsor h1{
+    font-family: 'Baloo Bhaijaan',cursive;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+
+.sponsor span{
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: -3px;
+    display: block;
+}
+
+.social_link{}
+.social_link li{
+    list-style: none;
+}
+.social_link li a{
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    color: #444;
+    text-transform: uppercase;
+}
+.social_link li a img{
+    width: 10px;
+    margin-right: 5px;
+}
+.social_link li a span{
+    transition: all .2s;
+}
+
+.social_link li a:hover span{
+    text-decoration: underline;
+    margin-left: 5px;
+
+}
+
+.about{
+
+}
+
+.about h2{
+    font-family: 'Baloo Bhaijaan',cursive;
+    font-size: 18px;
+}
+
+.about p{
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+.result_input{
+    display: block;
+    padding: 50px 50px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%) scale(0);
+    background: linear-gradient(to right bottom,
+    rgba(31, 88, 59,.8),
+    rgba(31, 31, 33, 0.8));
+    border-radius: 20px;
+    box-shadow: 0 0 11px
+    rgba(0,0,0,.41);
+    border: 4px solid
+    #fff;
+    text-align: center;
+    display: none;
+    transition: .3s;
+}
+
+
+#result_input:target{
+    display: block;
+    z-index: 100;
+    transform: translateX(-50%) scale(1);
+    transition: .3s;
+}
+
+.result_input a{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    color: #444;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.result_input a:hover{
+    background: #444;
+    color: #fff;
+}
+.result_input p{
+    font-family: 'Baloo Bhaijaan',cursive;
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.result_input input {
+	display: block;
+	border: 2px solid #fff;
+	padding: 10px 6px;
+	text-align: center;
+	border-radius: 42px;
+	margin: 0 auto;
+	font-family: 'arial';
+	font-weight: 500;
+	font-size: 18px;
+	background: rgba(0,0,0,.4);
+	color: #fff;
+}
+
+
+
+.result_input button {
+	margin-top: 24px;
+	background: #23CD74;
+	border: 0;
+	padding: 10px 67px;
+	font-family: 'Baloo Bhaijaan',cursive;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 39px;
+}
+
+.result_input button:hover{
+   background: #fff;
+   color: #1ce37b;
+   outline: 0;
+}
+
+.con-err {
+	color: #fff;
+	background: #DC4E42;
+	margin-top: 19px;
+	text-align: center;
+	padding: 4px;
+	font-family: 'Roboto',sans-serif;
+}

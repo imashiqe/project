@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan&display=swap');
+/* font-family: 'Baloo Bhaijaan', cursive; */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+p{
+    margin: 0;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+
+body{
+    background: url(../img/login_bg.jpg)no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul,ol{
+    list-style: none;
+    margin-top: 40px;
+}
+
+ul li{
+    margin: 15px 0;
+    background: rgba(255,255,255,.2);
+    padding: 5px;
+}
+
+
+ul li span img{
+    width: 15px;
+    transform: translateX(36px);
+}
+
+
+ul li input{
+    background: #fcfcfc;
+    border: 2px solid #eee;
+    padding: 8px 43px;
+    border-radius: 10px;
+    font-family: 'arial',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+ul li input::placeholder{
+    color: #ddd;
+}
+.container{
+    margin-top: 150px;
+}
+
+.box{
+    padding: 76px 0;
+    background: rgba(0, 0, 0,.4);
+    margin: 0 auto;
+    text-align: center;
+    width: 450px;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 33px rgba(0,0,0,.2);
+
+}
+
+.box h2{
+    font-family: 'Baloo Bhaijaan',cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.box button{
+    background: #0089C5;
+    border: 2px solid #fff;
+    padding: 6px 40px;
+    border-radius: 41px;
+    font-family: 'Baloo Bhaijaan',cursive;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 2px;
+    transition: all .2s;
+}
+
+.box button:hover{
+    outline: 0;
+    border: 2px solid #0089C5;
+    background: transparent;
+}
+
+
+#home_btn{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    color: #204552;
+    font-size: 41px;
+    z-index: 100;
+    background: #fff;
+    width: 80px;
+    text-align: center;
+    line-height: 35px;
+    height: 43px;
+    border-radius: 44px;
+    box-shadow: 0 7px 10px rgba(0,0,0,.2);
+    transition: all linear .2s;
+}
+
+#home_btn:hover{
+    color: #fff;
+    background: #0089C5;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}

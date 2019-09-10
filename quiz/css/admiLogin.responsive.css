@@ -1,0 +1,43 @@
+
+@media (max-width: 575.98px) { 
+    .box{
+        width: 300px;
+    }
+    .container {
+        margin-top: 79px;
+    }
+    .box h2{
+        font-size: 22px;
+    }
+    #home_btn {
+        position: absolute;
+        left: 50px;
+        top: 97px;
+        color: #204552;
+        font-size: 37px;
+        z-index: 100;
+        background: #fff;
+        width: 72px;
+        text-align: center;
+        line-height: 28px;
+        height: 35px;
+        border-radius: 14px;
+        box-shadow: 0 7px 10px rgba(0,0,0,.2);
+        transition: all linear .2s;
+    }
+    ul li input{
+        padding: 8px 33px;
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
